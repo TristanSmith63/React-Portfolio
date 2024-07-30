@@ -29,25 +29,26 @@ function Contact() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
+    <form onSubmit={handleSubmit} className="contact">
+      <div className="form-group">
         <label>Name:</label>
-        <input type="text" name="name" value={formData.name} onChange={handleChange} onBlur={validate} />
-        {errors.name && <span>{errors.name}</span>}
+        <input type="text" name="name" className="form-control" value={formData.name} onChange={handleChange} onBlur={validate} />
+        {errors.name && <span className="text-danger">{errors.name}</span>}
       </div>
-      <div>
+      <div className="form-group">
         <label>Email:</label>
-        <input type="email" name="email" value={formData.email} onChange={handleChange} onBlur={validate} />
-        {errors.email && <span>{errors.email}</span>}
+        <input type="email" name="email" className="form-control" value={formData.email} onChange={handleChange} onBlur={validate} />
+        {errors.email && <span className="text-danger">{errors.email}</span>}
       </div>
-      <div>
+      <div className="form-group">
         <label>Message:</label>
-        <textarea name="message" value={formData.message} onChange={handleChange} onBlur={validate}></textarea>
-        {errors.message && <span>{errors.message}</span>}
+        <textarea name="message" className="form-control" value={formData.message} onChange={handleChange} onBlur={validate}></textarea>
+        {errors.message && <span className="text-danger">{errors.message}</span>}
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit" className="btn btn-primary">Submit</button>
     </form>
   );
 }
 
 export default Contact;
+

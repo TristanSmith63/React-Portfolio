@@ -1,14 +1,14 @@
 function Resume() {
   return (
-    <div>
-      <a href="path-to-your-resume.pdf" download>Download Resume</a>
+    <div className="resume">
+      <a href="path-to-your-resume.pdf" download className="btn btn-primary mb-4">Download Resume</a>
       <h2>Proficiencies</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
+      <ul className="list-group">
+        <li className="list-group-item">HTML</li>
+        <li className="list-group-item">CSS</li>
+        <li className="list-group-item">JavaScript</li>
+        <li className="list-group-item">React</li>
+        <li className="list-group-item">Node.js</li>
         {/* add more proficiencies */}
       </ul>
     </div>
