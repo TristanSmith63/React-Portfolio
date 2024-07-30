@@ -4,11 +4,14 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class', 
   theme: {
-    extend: {fontFamily: {
-      sans: ['Roboto', 'sans-serif'],
-      serif: ['Roboto Slab', 'serif'],
-    },},
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+        serif: ['Roboto Slab', 'serif'],
+      },
+    },
   },
   plugins: [],
 }

@@ -1,54 +1,28 @@
-import { useState } from 'react';
+import { motion } from 'framer-motion';
+
+const cardVariants = {
+  hidden: { opacity: 0, scale: 0.8 },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+};
 
 function Contact() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [errors, setErrors] = useState({});
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const validate = () => {
-    const newErrors = {};
-    if (!formData.name) newErrors.name = 'Name is required';
-    if (!formData.email) {
-      newErrors.email = 'Email is required';
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      newErrors.email = 'Email address is invalid';
-    }
-    if (!formData.message) newErrors.message = 'Message is required';
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (validate()) {
-      // Submit the form
-    }
-  };
-
   return (
-    <form onSubmit={handleSubmit} className="contact">
-      <div className="form-group">
-        <label>Name:</label>
-        <input type="text" name="name" className="form-control" value={formData.name} onChange={handleChange} onBlur={validate} />
-        {errors.name && <span className="text-danger">{errors.name}</span>}
-      </div>
-      <div className="form-group">
-        <label>Email:</label>
-        <input type="email" name="email" className="form-control" value={formData.email} onChange={handleChange} onBlur={validate} />
-        {errors.email && <span className="text-danger">{errors.email}</span>}
-      </div>
-      <div className="form-group">
-        <label>Message:</label>
-        <textarea name="message" className="form-control" value={formData.message} onChange={handleChange} onBlur={validate}></textarea>
-        {errors.message && <span className="text-danger">{errors.message}</span>}
-      </div>
-      <button type="submit" className="btn btn-primary">Submit</button>
-    </form>
+    <div className="container mx-auto py-12">
+      <h1 className="text-4xl font-bold mb-8 text-center">Contact Me</h1>
+      <motion.div className="bg-gradient-to-r from-gray-3000 to-gray-300 p-8 rounded-lg shadow-lg max-w-2xl mx-auto text-center" initial="hidden" animate="visible" variants={cardVariants}>
+        <p className="text-gray-400 mb-4 text-4xl">You can reach me at:</p>
+        <div className="mb-4">
+          <p className="text-lg text-black">Email: <a href="mailto:tristaaan633@outlook.com" className="text-gray-600 hover:text-black transition duration-300">tristaaan633@outlook.com</a></p>
+        </div>
+        <div className="mb-4">
+          <p className="text-lg text-black">GitHub: <a href="https://github.com/TristanSmith63" className="text-gray-600 hover:text-black transition duration-300">TristanSmith63</a></p>
+        </div>
+        <div className="mb-4">
+          <p className="text-lg text-black">LinkedIn: <a href="https://www.linkedin.com/in/tristan-smith-26b09a302/" className="text-gray-600 hover:text-black transition duration-300">Tristan Smith</a></p>
+        </div>
+      </motion.div>
+    </div>
   );
 }
 
 export default Contact;
-
