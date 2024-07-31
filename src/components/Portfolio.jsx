@@ -12,42 +12,42 @@ function Portfolio() {
       link: 'https://drive.google.com/file/d/1sBOHkemTt6AZLlZtSPckmV9kUoOHRx5X/view', 
       repo: 'https://github.com/TristanSmith63/Social-Thoughts', 
       description: 'This a link to a Google Drive video, here i am showing off my skills with NoSQL using MongoDB, Express.js and Mongoose ODM. I built a API for a social network web application where users can share their thoughts, react to friends thoughts and create a friend list.',
-      image: '/src/assets/socialthoughts.jpg'
+      image: ''
     },
     { 
       title: 'EZChefApp', 
       link: 'https://grawrb.github.io/EZChefsApp/', 
       repo: 'https://github.com/Grawrb/EZChefsApp', 
       description: 'EZChefApp! This is one of my first group projects i did. This project is demoing our newly acquired skills and knowledge to build a web application from scratch. With the team, we conceive and execute a design that solves a real-world problem by integrating data received from multiple server-side API.',
-      image: '/src/assets/EZCHEF.jpg' 
+      image: 'public/assets/EZCHEF.jpg' 
     },
     { 
       title: 'Books And Booze', 
       link: 'https://books-and-booze.onrender.com/', 
       repo: 'https://github.com/TheKyleKirby/Books_and_Booze', 
       description: 'books and booze! This was my second group project on my web development journey. This here my not actaully be deployed because of Render only allow you to deploy one database at a time and because of other projects ive had to deploy i had to take that one down. But in my mean time let me give you a explaination on what the app does. Me and the team designed and built an app using the MVC paradigm, created our own server-side API, added user authentication, and connect to a database. I had the luxury of being the group project manager on this project. As the manager i was incharge of delacating work and keeping the flow of the project.',
-      image: '/src/assets/booksandbooze.png' 
+      image: 'public/assets/booksandbooze.png' 
     },
     { 
       title: 'Weather Dashboard', 
       link: 'https://tristansmith63.github.io/Weather-Dashboard/', 
       repo: 'https://github.com/TristanSmith63/Weather-Dashboard', 
       description: 'This is my Weather dashboard app, here i am using the OpenWeather API and intergrating it into my own Weather Application that will run in the browser and feature dynamically updated HTML and CSS using the 5 Day Weather Forecast to retrieve weather data for cities.',
-      image: '/src/assets/weather.jpg' 
+      image: 'public/assets/weather.jpg' 
     },
     { 
       title: 'My First Portfolio', 
       link: 'https://tristansmith63.github.io/TristansPortfolio/', 
       repo: 'https://github.com/TristanSmith63/TristansPortfolio', 
       description: 'This probably isnt the most admireable project that i have because this my was my second assignment in the class, but i think its inportant to know where you came from and to be able to look at the progress that youve made. Even tho is isnt the most amazing project ive worked on i love coming back and looking at this.',
-      image: '/src/assets/Firstportfolio.png' 
+      image: 'public/assets/Firstportfolio.png' 
     },
     { 
       title: 'Personal Blog', 
       link: 'https://tristansmith63.github.io/personal-blog/', 
       repo: 'https://github.com/TristanSmith63/personal-blog', 
       description: 'My personal blog webpage, here you can express yourself in text form. I created a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. This is where i learned to gain practical JavaScript experience, exploring the Document Object Models power, and set the stage for more advanced tasks.',
-      image: '/src/assets/personalblog.jpg' 
+      image: 'public/assets/Blogscreenshot.jpg' 
     },
   ];
 

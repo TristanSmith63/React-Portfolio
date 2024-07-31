@@ -32,7 +32,7 @@ This project is licensed under the MIT license.
 Tristan Smith
 
 ## Links
-Netlify:
+Netlify: https://exquisite-begonia-7e983c.netlify.app/
 
 ## Questions
 For questions about the project, please contact at tristaaan633@outlook.com

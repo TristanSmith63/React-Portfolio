@@ -36,8 +36,9 @@ function Resume() {
         </motion.div>
         <motion.div className="flex-shrink-0" initial="hidden" animate="visible" variants={cardVariants}>
           <h2 className="text-3xl font-bold mb-4 mt-8 md:mt-0">Resume</h2>
+          {/* Resume */}
           <iframe 
-            src="src/assets/Tristan-Smith.pdf" 
+            src="public/assets/Tristan-Smith.pdf" 
             className="w-full md:w-[600px] h-[800px] border-none"
             title="Resume"
           ></iframe>
