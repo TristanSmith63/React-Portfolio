@@ -5,6 +5,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import DarkModeToggle from './components/DarkModeToggle'; 
+// import IMAGES from './components/images';
 
 const navLinkVariants = {
   hover: {
