@@ -26,7 +26,7 @@ function App() {
     <Router>
       <div className="bg-gray-100 text-black dark:bg-gray-900 dark:text-white min-h-screen flex flex-col">
         {/* Header Section */}
-        <header className="bg-stone-700 py-6 dark:bg-gray-600">
+        <header className="bg-gray-400 py-6 dark:bg-gray-600">
           <div className="container mx-auto text-center flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center mb-4 md:mb-0">
               <h1 className='font-serif font-bold text-3xl md:text-5xl text-white'>Tristan Smith</h1>
@@ -63,7 +63,7 @@ function App() {
         </main>
         
         {/* Footer Section */}
-        <footer className="bg-stone-700 py-6 dark:bg-gray-600">
+        <footer className="bg-gray-400 py-6 dark:bg-gray-600">
           <div className="container mx-auto text-center">
             <p className="font-sans text-gray-300 mb-4">Connect with me:</p>
             <div className="space-x-4">
