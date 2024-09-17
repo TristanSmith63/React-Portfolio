@@ -25,29 +25,30 @@ function App() {
   return (
     <Router>
       <div className="bg-gray-100 text-black dark:bg-gray-900 dark:text-white min-h-screen flex flex-col">
-        {/* Header Section */}
-        <header className="bg-gray-400 py-6 dark:bg-gray-600">
-          <div className="container mx-auto text-center flex flex-col md:flex-row items-center justify-between">
-            <div className="flex items-center mb-4 md:mb-0">
-              <h1 className='font-serif font-bold text-3xl md:text-5xl text-white'>Tristan Smith</h1>
-            </div>
-            <nav className='flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0'>
-              <NavLink to="/" end className="font-sans text-lg text-white hover:text-gray-300 transition duration-300" activeClassName="text-gray-300">
-                <motion.div variants={navLinkVariants} whileHover="hover">About Me</motion.div>
-              </NavLink>
-              <NavLink to="/portfolio" className="font-sans text-lg text-white hover:text-gray-300 transition duration-300" activeClassName="text-gray-300">
-                <motion.div variants={navLinkVariants} whileHover="hover">Portfolio</motion.div>
-              </NavLink>
-              <NavLink to="/contact" className="font-sans text-lg text-white hover:text-gray-300 transition duration-300" activeClassName="text-gray-300">
-                <motion.div variants={navLinkVariants} whileHover="hover">Contact</motion.div>
-              </NavLink>
-              <NavLink to="/resume" className="font-sans text-lg text-white hover:text-gray-300 transition duration-300" activeClassName="text-gray-300">
-                <motion.div variants={navLinkVariants} whileHover="hover">Resume</motion.div>
-              </NavLink>
-            </nav>
-            <DarkModeToggle />
-          </div>
-        </header>
+     {/* Header Section */}
+<header className="bg-gray-400 py-6 dark:bg-gray-600">
+  <div className="container mx-auto text-center flex flex-col md:flex-row items-center justify-between">
+    <div className="flex items-center mb-4 md:mb-0">
+      <h1 className='font-serif font-bold text-3xl md:text-5xl text-white'>Tristan Smith</h1>
+    </div>
+    <nav className='flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0'>
+      <NavLink to="/" end className="font-sans text-xl text-white px-4 py-2 font-bold hover:text-gray-300 transition duration-300" activeClassName="text-gray-300">
+        <motion.div variants={navLinkVariants} whileHover="hover">About Me</motion.div>
+      </NavLink>
+      <NavLink to="/portfolio" className="font-sans text-xl text-white px-4 py-2 font-bold hover:text-gray-300 transition duration-300" activeClassName="text-gray-300">
+        <motion.div variants={navLinkVariants} whileHover="hover">Portfolio</motion.div>
+      </NavLink>
+      <NavLink to="/contact" className="font-sans text-xl text-white px-4 py-2 font-bold hover:text-gray-300 transition duration-300" activeClassName="text-gray-300">
+        <motion.div variants={navLinkVariants} whileHover="hover">Contact</motion.div>
+      </NavLink>
+      <NavLink to="/resume" className="font-sans text-xl text-white px-4 py-2 font-bold hover:text-gray-300 transition duration-300" activeClassName="text-gray-300">
+        <motion.div variants={navLinkVariants} whileHover="hover">Resume</motion.div>
+      </NavLink>
+    </nav>
+    <DarkModeToggle />
+  </div>
+</header>
+
         
         <main className='container mx-auto py-12 flex-grow'>
           <Routes>
