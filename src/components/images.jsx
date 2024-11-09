@@ -8,6 +8,8 @@ const IMAGES = {
   image6: new URL('/assets/socialthoughts.jpg', import.meta.url).href,
   image7: new URL('/assets/weather.jpg', import.meta.url).href,
   image8: new URL('/assets/GAMEGALAXY.png', import.meta.url).href,
+  image9: new URL('/assets/Lazyjmeats.png', import.meta.url).href,
+
 };
 
 export default IMAGES;

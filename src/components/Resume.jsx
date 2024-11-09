@@ -1,7 +1,7 @@
 function Resume() {
   return (
     <div className="container mx-auto py-12">
-      <a href="public/assets/Tristan-Smith.pdf" download className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-8 inline-block transition duration-300">
+      <a href="public/assets/resume.pdf" download className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-8 inline-block transition duration-300">
         Download Resume
       </a>
 
@@ -55,7 +55,7 @@ function Resume() {
         <div className="flex-shrink-0">
           <h2 className="text-3xl font-bold mb-4 mt-8 md:mt-0">Resume</h2>
           <iframe 
-            src="/assets/Tristan-Smith.pdf" 
+            src="/assets/resume.pdf" 
             className="w-full md:w-[600px] h-[800px] border-none"
             title="Resume"
           ></iframe>

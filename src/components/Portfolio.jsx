@@ -12,50 +12,57 @@ function Portfolio() {
       title: 'Social Thoughts', 
       link: 'https://drive.google.com/file/d/1sBOHkemTt6AZLlZtSPckmV9kUoOHRx5X/view', 
       repo: 'https://github.com/TristanSmith63/Social-Thoughts', 
-      description: 'This a link to a Google Drive video, here i am showing off my skills with NoSQL using MongoDB, Express.js and Mongoose ODM. I built a API for a social network web application where users can share their thoughts, react to friends thoughts and create a friend list.',
+      description: 'This is a link to a Google Drive video where I showcase my skills with NoSQL using MongoDB, Express.js, and Mongoose ODM. I built an API for a social network web application, enabling users to share thoughts, react to friends\' thoughts, and create a friend list.',
       image: IMAGES.image6
     },
     { 
       title: 'EZChefApp', 
       link: 'https://grawrb.github.io/EZChefsApp/', 
       repo: 'https://github.com/Grawrb/EZChefsApp', 
-      description: 'EZChefApp! This is one of my first group projects i did. This project is demoing our newly acquired skills and knowledge to build a web application from scratch. With the team, we conceive and execute a design that solves a real-world problem by integrating data received from multiple server-side API.',
+      description: 'EZChefApp is one of my first group projects. In this project, we showcased our newly acquired skills by building a web application from scratch. Together, our team conceived and executed a design that solved a real-world problem by integrating data from multiple server-side APIs.',
       image: IMAGES.image4
     },
     { 
       title: 'Books And Booze', 
       link: 'https://books-and-booze.onrender.com/', 
       repo: 'https://github.com/TheKyleKirby/Books_and_Booze', 
-      description: 'books and booze! This was my second group project on my web development journey. This here my not actaully be deployed because of Render only allow you to deploy one database at a time and because of other projects ive had to deploy i had to take that one down. But in my mean time let me give you a explaination on what the app does. Me and the team designed and built an app using the MVC paradigm, created our own server-side API, added user authentication, and connect to a database. I had the luxury of being the group project manager on this project. As the manager i was incharge of delacating work and keeping the flow of the project.',
+      description: 'Books and Booze was my second group project in my web development journey. It may not currently be deployed due to Render\'s single database deployment limit, but here\'s what it does: our team designed and built an app using the MVC paradigm, created our own server-side API, added user authentication, and connected to a database. As the group project manager, I was responsible for delegating tasks and ensuring smooth project workflow.',
       image: IMAGES.image3 
     },
     { 
       title: 'Weather Dashboard', 
       link: 'https://tristansmith63.github.io/Weather-Dashboard/', 
       repo: 'https://github.com/TristanSmith63/Weather-Dashboard', 
-      description: 'This is my Weather dashboard app, here i am using the OpenWeather API and intergrating it into my own Weather Application that will run in the browser and feature dynamically updated HTML and CSS using the 5 Day Weather Forecast to retrieve weather data for cities.',
+      description: 'This is my Weather Dashboard app, where I used the OpenWeather API to integrate weather data into a browser-based application featuring dynamically updated HTML and CSS. It provides a 5-day weather forecast for various cities.',
       image: IMAGES.image7 
     },
     { 
       title: 'My First Portfolio', 
       link: 'https://tristansmith63.github.io/TristansPortfolio/', 
       repo: 'https://github.com/TristanSmith63/TristansPortfolio', 
-      description: 'This probably isnt the most admireable project that i have because this my was my second assignment in the class, but i think its inportant to know where you came from and to be able to look at the progress that youve made. Even tho is isnt the most amazing project ive worked on i love coming back and looking at this.',
+      description: 'This may not be my most impressive project, as it was my second assignment in class. However, I believe it\'s important to reflect on progress over time. Even though it\'s not my finest work, I appreciate looking back at how far I\'ve come.',
       image: IMAGES.image5 
     },
     { 
       title: 'Personal Blog', 
       link: 'https://tristansmith63.github.io/personal-blog/', 
       repo: 'https://github.com/TristanSmith63/personal-blog', 
-      description: 'My personal blog webpage, here you can express yourself in text form. I created a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. This is where i learned to gain practical JavaScript experience, exploring the Document Object Models power, and set the stage for more advanced tasks.',
+      description: 'My personal blog webpage allows users to express themselves in text form. I created a two-page website where users can input and view blog posts. This project includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. It helped me gain practical JavaScript experience and explore the Document Object Model (DOM).',
       image: IMAGES.image2 
     },
     { 
       title: 'Game Galaxxy', 
       link: 'https://game-galaxxy.onrender.com/', 
       repo: 'https://github.com/TheKyleKirby/GAME-GALAXXY?tab=readme-ov-file', 
-      description: 'Welcome to GVME GVLVXXY: Your Portal to Mastering Games Game Galaxxy is a web-based platform designed to host and showcase game tutorials. Whether youre stuck on a level or looking for the best strategies, Game Galaxxy connects gamers with the content they need to succeed. From easy tips to galactically impossible challenges, explore, save, and share tutorials that make you a better gamer. This was my final project for the class.',
+      description: 'Welcome to Game Galaxxy: Your Portal to Mastering Games. Game Galaxxy is a web-based platform designed to host and showcase game tutorials. Whether you\'re stuck on a level or looking for strategic tips, Game Galaxxy connects gamers with the content they need to succeed. This was my final project for the class, showcasing advanced collaboration and project development skills.',
       image: IMAGES.image8
+    },
+    { 
+      title: 'Lazy J Meats', 
+      link: 'https://lazyjmeatsut.com/', 
+      repo: 'https://github.com/TristanSmith63/LazyJsMeats', 
+      description: 'I\'m particularly proud of the work I did for a local company, Lazy J Meats, where I built and deployed a comprehensive website (lazyjmeatsut.com). I worked closely with the client to design a fully customized frontend UI and a robust backend system that empowered their employees to manage menu items and post announcements seamlessly. My greatest satisfaction came from developing the backend architecture, including database integration and routing that effectively connected the admin portal to the user interface. Seeing how delighted the client was with the final product, which met all their expectations, filled me with pride and reaffirmed my passion for building solutions that make a real impact.',
+      image: IMAGES.image9
     },
   ];
   return (

@@ -12,7 +12,7 @@ function Contact() {
       <motion.div className="bg-gradient-to-r from-gray-3000 to-gray-300 p-8 rounded-lg shadow-lg max-w-2xl mx-auto text-center" initial="hidden" animate="visible" variants={cardVariants}>
         <p className="text-gray-400 mb-4 text-4xl">You can reach me at:</p>
         <div className="mb-4">
-          <p className="text-lg text-bg-gray-400">Email: <a href="mailto:tristaaan633@outlook.com" className="text-gray-600 hover:text-black transition duration-300">tristaaan633@outlook.com</a></p>
+          <p className="text-lg text-bg-gray-400">Email: <a href="mailto:tristanswebdesigns@gmail.com" className="text-gray-600 hover:text-black transition duration-300">tristanswebdesigns@gmail.com</a></p>
         </div>
         <div className="mb-4">
           <p className="text-lg text-bg-gray-400">GitHub: <a href="https://github.com/TristanSmith63" className="text-gray-600 hover:text-black transition duration-300">TristanSmith63</a></p>
